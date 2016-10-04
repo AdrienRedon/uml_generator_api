@@ -1,0 +1,18 @@
+{
+  "name": "uml_generator_api",
+  "version": "1.0.0",
+  "description": "API for uml_generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AdrienRedon",
+  "license": "MIT",
+  "dependencies": {
+    "auto-load": "^2.1.0",
+    "dotenv": "^2.0.0",
+    "restify": "^4.1.1",
+    "restify-logger": "^2.0.1"
+  }
+}
